@@ -20,3 +20,5 @@ RUN pyenv install 2.6.6
 RUN pyenv install 3.5.0
 
 RUN pyenv global 3.5.0
+
+WORKDIR /usr/local/src
